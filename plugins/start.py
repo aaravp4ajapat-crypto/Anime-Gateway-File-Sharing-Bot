@@ -1,4 +1,4 @@
-#(©)CodeXBotz
+#(©)AceXBots
 
 import os
 import asyncio
@@ -72,7 +72,7 @@ async def start_command(client: Client, message: Message):
             else:
                 reply_markup = None
 
-            if AUTO_DELETE_TIME and AUTO_DELETE_TIME > 0:
+            if AUTO_DELETE_TIME and AUTO_DELETE_TIME > 600:
 
                 try:
                     copied_msg_for_deletion = await msg.copy(chat_id=message.from_user.id, caption=caption, parse_mode=ParseMode.HTML, reply_markup=reply_markup, protect_content=PROTECT_CONTENT)
