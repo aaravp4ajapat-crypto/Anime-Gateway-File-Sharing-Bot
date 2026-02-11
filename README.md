@@ -4,8 +4,8 @@
   <a href="https://www.python.org">
     <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" width ="250">
   </a>
-  <a href="https://t.me/CodeXBotz">
-    <img src="https://github.com/CodeXBotz/PyrogramGenStr/blob/main/resources/madebycodex-badge.svg" width="250">
+  <a href="https://t.me/BotsXCode">
+    <img src="https://github.com/BotsXCode/PyrogramGenStr/blob/main/resources/madebycodex-badge.svg" width="250">
   </a><br>
   <a href="https://t.me/CodeXBotz">
     &nbsp;<img src="https://img.shields.io/badge/Code%20%F0%9D%95%8F%20Botz-Channel-blue?style=flat-square&logo=telegram" width="130" height="18">&nbsp;
@@ -14,11 +14,11 @@
     &nbsp;<img src="https://img.shields.io/badge/Code%20%F0%9D%95%8F%20Botz-Group-blue?style=flat-square&logo=telegram" width="130" height="18">&nbsp;
   </a>
   <br>
-  <a href="https://github.com/CodeXBotz/File-Sharing-Bot/stargazers">
-    <img src="https://img.shields.io/github/stars/CodeXBotz/File-Sharing-Bot?style=social">
+  <a href="https://github.com/BotsXCode/File-Sharing-Bot/stargazers">
+    <img src="https://img.shields.io/github/stars/BotsXCode/File-Sharing-Bot?style=social">
   </a>
-  <a href="https://github.com/CodeXBotz/File-Sharing-Bot/fork">
-    <img src="https://img.shields.io/github/forks/CodeXBotz/File-Sharing-Bot?label=Fork&style=social">
+  <a href="https://github.com/BotsXCode/File-Sharing-Bot/fork">
+    <img src="https://img.shields.io/github/forks/BotsXCode/File-Sharing-Bot?label=Fork&style=social">
   </a>  
 </p>
 
@@ -44,7 +44,7 @@ These features are in the pipeline, and contributions from the community are wel
 
 
 ### How to Contribute
-1. Check the [contribution guidelines](https://github.com/CodeXBotz/File-Sharing-Bot/blob/main/CONTRIBUTING.md) for detailed instructions.  
+1. Check the [contribution guidelines](https://github.com/BotsXCode/File-Sharing-Bot/blob/main/CONTRIBUTING.md) for detailed instructions.  
 2. Pick any feature and create a new issue or comment on an existing one.  
 3. Discuss your implementation plan with maintainers to align your contributions with project goals.  
 
@@ -112,7 +112,7 @@ python3 main.py
 * `CHANNEL_ID` Your Channel ID eg:- -100xxxxxxxx
 * `DATABASE_URL` Your mongo db url
 * `ADMINS` Optional: A space separated list of user_ids of Admins, they can only create links
-* `START_MESSAGE` Optional: start message of bot, use HTML and <a href='https://github.com/codexbotz/File-Sharing-Bot/blob/main/README.md#start_message'>fillings</a>
+* `START_MESSAGE` Optional: start message of bot, use HTML and <a href='https://github.com/BotsXCode/File-Sharing-Bot/blob/main/README.md#start_message'>fillings</a>
 * `START_PIC` Optional: URL or file path of the image to be sent as the start message
 * `FORCE_SUB_MESSAGE`Optional:Force sub message of bot, use HTML and Fillings
 * `FORCE_SUB_CHANNEL` Optional: ForceSub Channel ID, leave 0 if you want disable force sub
@@ -124,9 +124,9 @@ python3 main.py
 
 * `AUTO_DELETE_MSG` put your custom deletion text if you want Setup Custom deletion messaeg,
 * `AUTO_DEL_SUCCESS_MSG` Set your custom success message for when the file is successfully deleted
-* `CUSTOM_CAPTION` put your Custom caption text if you want Setup Custom Caption, you can use HTML and <a href='https://github.com/CodeXBotz/File-Sharing-Bot/blob/main/README.md#custom_caption'>fillings</a> for formatting (only for documents)
+* `CUSTOM_CAPTION` put your Custom caption text if you want Setup Custom Caption, you can use HTML and <a href='https://github.com/BotsXCode/File-Sharing-Bot/blob/main/README.md#custom_caption'>fillings</a> for formatting (only for documents)
 * `DISABLE_CHANNEL_BUTTON` Put True to Disable Channel Share Button, Default if False
-* `BOT_STATS_TEXT` put your custom text for stats command, use HTML and <a href='https://github.com/codexbotz/File-Sharing-Bot/blob/main/README.md#custom_stats'>fillings</a>
+* `BOT_STATS_TEXT` put your custom text for stats command, use HTML and <a href='https://github.com/BotsXCode/File-Sharing-Bot/blob/main/README.md#custom_stats'>fillings</a>
 * `USER_REPLY_TEXT` put your text to show when user sends any message, use HTML
 * `DATABASE_NAME` Your mongo db session name
 
@@ -151,7 +151,7 @@ python3 main.py
 
 
 ## Support   
-Join Our [Telegram Group](https://www.telegram.dog/codexbotzsupport) For Support/Assistance And Our [Channel](https://www.telegram.dog/codexbotz) For Updates.   
+Join Our [Telegram Group](https://www.telegram.dog/BotsXCode) For Support/Assistance And Our [Channel](https://www.telegram.dog/BotsXCode) For Updates.   
    
 Report Bugs, Give Feature Requests There..   
 
@@ -163,7 +163,7 @@ Report Bugs, Give Feature Requests There..
 ### Licence
 [![GNU GPLv3 Image](https://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)  
 
-[FILE-SHARING-BOT](https://github.com/CodeXBotz/File-Sharing-Bot/) is Free Software: You can use, study share and improve it at your
+[FILE-SHARING-BOT](https://github.com/BotsXCode/File-Sharing-Bot/) is Free Software: You can use, study share and improve it at your
 will. Specifically you can redistribute and/or modify it under the terms of the
 [GNU General Public License](https://www.gnu.org/licenses/gpl.html) as
 published by the Free Software Foundation, either version 3 of the License, or
@@ -171,11 +171,11 @@ published by the Free Software Foundation, either version 3 of the License, or
 
 ## Star History
 
-<a href="https://www.star-history.com/#CodeXBotz/File-Sharing-Bot&type=date&legend=top-left">
+<a href="https://www.star-history.com/#BotsXCode/File-Sharing-Bot&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CodeXBotz/File-Sharing-Bot&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CodeXBotz/File-Sharing-Bot&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=CodeXBotz/File-Sharing-Bot&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=BotsXCode/File-Sharing-Bot&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=BotsXCode/File-Sharing-Bot&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=BotsXCode/File-Sharing-Bot&type=date&legend=top-left" />
  </picture>
 </a>
 
