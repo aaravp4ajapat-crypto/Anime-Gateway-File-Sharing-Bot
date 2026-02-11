@@ -1,4 +1,4 @@
-#(©)Codexbotz
+#(©)BotsXCode
 
 from pyrogram import __version__
 from bot import Bot
